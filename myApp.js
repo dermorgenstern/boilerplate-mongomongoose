@@ -15,7 +15,7 @@ var Person = mongoose.model("Person", personSchema);
 
 mongoose.connect(MONGOURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
-console.dir(Person);
+//console.dir(Person);
 
 const createAndSavePerson = (done) => {
   var newPerson = new Person ({
